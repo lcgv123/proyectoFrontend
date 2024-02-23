@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: url(imagenes/Fondobody.png);
+    width: 100%;
+    color: aliceblue;
+    background-size:cover;
+}
+.encabezado ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;  
+    max-width: 1800px ;
+}
+.encabezado ul .nav {
+    display: flex;
+    justify-content:right;
+    gap: 20px;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover {
+    color: grey;
+}
+ul {
+    list-style-type: none;
+}
+main  {
+    text-align: center;
+    width: 80%;
+    margin: 150px auto 0 ;
+}
+footer {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+li#logo {
+    font-size: 50px;
+}
+h1,  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input {
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    margin: 20px auto;
+}
+button {
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer a img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+form  {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+}
+footer a {
+    display: inline-block;
+}
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 20px;
+}
+form input.buscar{
+    width: 500px;
+}
+a img {
+    width: 250px;
+}
+/* categoria */
+main.mcategoria {
+    margin: 100px auto 0
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap ;
+}
+
+.sidebar {
+    width: 600px;
+    background-color: #d3d3d340;
+    padding: 5px;
+    font-size:30px; 
+    height: 700px; 
+    margin: 0 auto;
+}
+
+.sidebar h2 {
+    margin-bottom: 0;
+}
+
+.sidebar ul {
+    display: flex;
+    list-style-type: style type;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    margin: -10px;
+}
+.sidebar li p{
+    margin: 0;
+}
+.sidebar li {
+    font-size: 20px; 
+    width: 200px;
+    height: 200px;
+}
+.sidebar img {
+    width: 150px;
+    height: 150px;
+}
